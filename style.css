@@ -1,0 +1,24 @@
+body {
+    background-color: #b6ecb6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+h1 {
+    border-bottom: solid green 3px;
+    text-align: right;
+}
+
+h2 {
+    border-bottom: solid orange 2px;
+}
+
+a {
+    color: green;
+}
