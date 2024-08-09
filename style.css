@@ -1,24 +1,53 @@
 body {
-    background-color: #b6ecb6;
+    background-color: #b8dbd9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0d1821;
 }
 
 #main {
     background-color: white;
-    width: 500px;
+    width: 550px;
     margin: auto;
     padding: 10px;
 }
 
 h1 {
-    border-bottom: solid green 3px;
+    border-bottom: solid #344966 3px;
     text-align: right;
 }
 
 h2 {
-    border-bottom: solid orange 2px;
+    border-bottom: solid #e6aace 2px;
+}
+
+img {
+    display: block;
+    margin: auto;
 }
 
 a {
-    color: green;
+    color: #344966;
+}
+
+a:hover {
+    color: #b48eae;
+}
+
+#recipes {
+    color: #0d1821;
+}
+
+#recipes li a {
+    text-decoration: none;
+}
+
+#recipes li {
+    display: inline-block;
+    padding: 20px;
+    border: 1px dashed #e6aace;
+}
+
+#recipes li:hover, li a:hover {
+    background-color: #e6aace;
+    color: white;
 }
